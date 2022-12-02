@@ -6,6 +6,40 @@ body {
 	font-family: 'Quattrocento Sans', sans-serif;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Cherry Swash', cursive;
+}
+
+.tengah {
+	/* border: 1px solid green; */
+	display: flex;
+    align-items: center;
+    justify-content: center;
+  	height: 100%;
+}
+
+.tengah .b {
+	width: 50%;
+}
+
+.copyright{
+	text-align:right;
+}
+
+header {
+	height: 10vh;
+}
+
+nav {
+	/* border: 1px solid green; */
+	height: 5vh;
+}
+
+main {
+	height: 74vh;
+
+}
+
+footer {
+	height: 5vh;
 }
