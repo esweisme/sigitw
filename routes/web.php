@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\toolController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,5 @@ use App\Http\Controllers\FrontController;
 
 
 Route::get('/', [FrontController::class, 'index']);
+
+Route::get('/tools/wppost', [toolController::class, 'removeScript']);
